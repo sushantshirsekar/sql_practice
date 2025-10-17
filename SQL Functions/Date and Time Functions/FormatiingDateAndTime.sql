@@ -1,6 +1,10 @@
 -- Formatting Date and Time
 -- Changes date fomrat according to different countries
+-- ddd -> name of day in short
+-- dddd -> complete name of day
 
+
+USE SalesDB
 SELECT 
 	OrderID,
 	CreationTime,
