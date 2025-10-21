@@ -3,7 +3,7 @@
 
 SELECT 
 	CustomerID,
-	SUM(Sales) AS total_sales
+	SUM(Sales) AS total_sales, 
+	RANK() OVER(ORDER BY SUM(Sales) DESC) Rankings
 FROM Sales.Orders
 GROUP BY CustomerID
-ORDER BY SUM(Sales) DESC
