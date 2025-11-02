@@ -1,5 +1,5 @@
 -- ==================================================
--- Tipe 14: Check for Nested Loops and Use SQL HINTS
+-- Tip 14: Check for Nested Loops and Use SQL HINTS
 -- ==================================================
 
 -- Bad Practice (check in execution plan, using nested loops or not)
