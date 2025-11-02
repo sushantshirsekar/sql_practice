@@ -1,0 +1,11 @@
+-- ====================================
+-- Tip 22 : Best Practices -> Indexing
+-- ====================================
+
+-- Avoid Over Indexing 
+-- Monitor usage of Indexes
+-- Drop Unused Indexes
+-- Update Statistics (Weekly)
+-- Reorganize and Rebuild Indexes (Weekly) to avoid Data Fragmentation
+-- Partiton Large Tables (Facts) to improve performance
+-- Next, apply a Columnstore Index for the best results
